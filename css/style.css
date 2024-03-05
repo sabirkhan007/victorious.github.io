@@ -98,7 +98,7 @@
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color:#F6B737;
 }
 
 @media (max-width: 991.98px) {
@@ -155,7 +155,7 @@
 .page-header .container {
     position: relative;
     padding: 45px 0 45px 35px;
-    border-left: 15px solid var(--primary);
+    border-left: 15px solid #F6B737;
 }
 
 .header-carousel .container::before,
@@ -168,7 +168,7 @@
     left: 0;
     width: 100px;
     height: 15px;
-    background: var(--primary);
+    background: #F6B737;
 }
 
 .header-carousel .container::after,
@@ -463,4 +463,18 @@ display:block
 .footer-share-kmy {
 display:none
 }
+}
+
+.logo{
+    width: 65px;
+}
+
+
+
+
+.titles{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
